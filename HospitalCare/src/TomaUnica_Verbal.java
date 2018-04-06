@@ -3,15 +3,30 @@ import java.util.Date;
 
 public class TomaUnica_Verbal extends Prescrição {
 
-	private TomaUnica_Verbal() {
-		super();
-		// TODO Auto-generated constructor stub
+	private Enfermeiro enfermeiro;
+	private AutorizacaoPrescricao autorizacao;
+
+	public TomaUnica_Verbal() {}
+	
+	public TomaUnica_Verbal(Enfermeiro enfermeiro, AutorizacaoPrescricao autorizacao) {
+		this.enfermeiro = enfermeiro;
+		this.autorizacao = autorizacao;
 	}
 
-	private TomaUnica_Verbal(Date data, Doente doente, Medicamento medicamento, Médico medico,
-			ArrayList<HorarioToma> horarios) {
-		super(data, doente, medicamento, medico, horarios);
-		// TODO Auto-generated constructor stub
+	public Enfermeiro getEnfermeiro() {
+		return enfermeiro;
+	}
+
+	public void setEnfermeiro(Enfermeiro enfermeiro) {
+		this.enfermeiro = enfermeiro;
+	}
+
+	public AutorizacaoPrescricao getAutorizacao() {
+		return autorizacao;
+	}
+
+	public void setAutorizacao(AutorizacaoPrescricao autorizacao) {
+		this.autorizacao = autorizacao;
 	}
 
 }

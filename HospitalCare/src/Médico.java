@@ -2,13 +2,7 @@
 public class Médico {
 	private String nome;
 
-	public Médico() {
-		super();
-		this.nome = "";
-	}
-	
 	public Médico(String nome) {
-		super();
 		this.nome = nome;
 	}
 
