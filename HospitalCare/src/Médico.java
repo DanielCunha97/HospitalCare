@@ -1,6 +1,6 @@
 
 public class Médico {
-	String nome;
+	private String nome;
 
 	public Médico() {
 		super();
