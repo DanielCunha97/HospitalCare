@@ -1,9 +1,11 @@
 
-public class Médico {
+public class Medico {
 	private String nome;
+	private int codigo;
 
-	public Médico(String nome) {
+	public Medico(int codigo,String nome) {
 		this.nome = nome;
+		this.codigo=codigo;
 	}
 
 	public String getNome() {

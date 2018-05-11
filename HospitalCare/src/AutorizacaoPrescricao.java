@@ -2,18 +2,9 @@
 public class AutorizacaoPrescricao {
 
 	private String observacoes;
-	
-	public String getObservacoes() {
-		return observacoes;
-	}
 
-	public void setObservacoes(String observacoes) {
+	public AutorizacaoPrescricao(String observacoes) {
 		this.observacoes = observacoes;
-	}
-
-	private AutorizacaoPrescricao() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 
 }

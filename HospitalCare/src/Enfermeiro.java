@@ -2,11 +2,12 @@
 public class Enfermeiro {
 
 	private String nome;
+	private int codigo;
 	
-	
-	private Enfermeiro(String nome) {
+	public Enfermeiro(int codigo,String nome) {
 		super();
 		this.nome = nome;
+		this.codigo=codigo;
 	}
 
 

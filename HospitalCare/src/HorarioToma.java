@@ -1,20 +1,19 @@
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class HorarioToma {
 
-	private Date data_hora;
-
-	public HorarioToma(Date data_hora) {
+	private LocalDateTime data_hora;
+	private String medicamento;
+	public HorarioToma(LocalDateTime data_hora,String medicamento) {
 		super();
 		this.data_hora = data_hora;
+		this.medicamento = medicamento;
 	}
 
-	public Date getData_hora() {
+	public LocalDateTime getDateTime() {
 		return data_hora;
 	}
 
-	public void setData_hora(Date data_hora) {
-		this.data_hora = data_hora;
-	}
 
 }
